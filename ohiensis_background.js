@@ -9,6 +9,12 @@ const CSS_PATTERNS = [
 const FONT_PATTERNS = [
 	'https://fonts.gstatic.com/s/notosansjp/*',
 	'*://fonts.gstatic.com/ea/notosansjapanese/*',
+	'*://*/*NotoSansJP*.woff*',
+	'*://*/*NotoSansJP*.*tf*',
+	'*://*/*NotoSansJP*.eot*',
+	'*://*/*NotoSansCJKjp*.woff*',
+	'*://*/*NotoSansCJKjp*.*tf*',
+	'*://*/*NotoSansCJKjp*.eot*',
 ];
 
 function cancel(requestDetails) {
